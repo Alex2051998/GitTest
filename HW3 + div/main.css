@@ -1,0 +1,73 @@
+body{
+    background: #8f8d8d;
+}
+
+.round{
+    border-radius: 100px;
+    border: 1px solid #ff6767;
+    box-shadow: 0 0 7px #666;
+    float:left;
+    margin: 7px 7px 7px 0;
+}
+.round1 {
+    border-radius: 100px;
+    border: 1px solid #ff6767;
+    box-shadow: 0 0 7px #666;
+    float: right;
+    margin: 7px 7px 7px 0;
+}
+.heading{
+    text-align: center;
+}
+
+
+.text{
+    display: block;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+h2{
+    text-align: center;
+}
+
+.container{
+    font-size: 20px;
+}
+.container1{
+    color: #f68e8e;
+    padding-top: 10px;
+}
+.container2{
+    color: black;
+    padding-top: 10px;
+}
+
+.just{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: red;
+    height: 50px;
+    width: 150px;
+    margin: 0 auto;
+
+}
+
+.venom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.venom1{
+    width: 150px;
+    height: 200px;
+    background: linear-gradient(-45deg, #788cff, #b4c8ff);
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 75px;
+
+}
