@@ -1,0 +1,43 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.home{
+    flex-grow: 1;
+    height: 400px;
+    background: #0021f5;
+}
+
+.about{
+   flex-grow: 1;
+    height: 400px;
+    background: #0021f5;
+}
+
+.contant{
+    margin-top: 5px;
+    width: 100%;
+    height: 200px;
+    background: #0021f5;
+
+}
+
+.footer{
+    display: flex;
+    margin-top: 5px;
+    column-gap: 5px;
+}
+
+.kabobs{
+    flex-grow: 1;
+    height: 200px;
+    background: #0021f5;
+
+}
