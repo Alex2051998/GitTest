@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    row-gap: 10px;
+}
+
+.widgets{
+    width: 100%;
+    height: 200px;
+    background: #0f44d5;
+
+}
+.center{
+
+    display: flex;
+
+}
+
+.cg{
+    column-gap: 10px;
+}
+
+.w1280{
+    width: 1280px;
+}
+.h500{
+    height: 500px;
+}
+.color{
+    background: #0f44d5;
+}
+
+.fg{
+    flex-grow: 1;
+}
+
+.bigWidgets{
+}
+
+
+.contact{
+    height: 800px;
+}
