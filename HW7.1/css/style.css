@@ -1,0 +1,276 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Tinos', serif;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header{
+  background: url("../image/bg.png") no-repeat center/cover;
+  height: 100vh;
+  /*height: 800px;*/
+}
+
+.header__top{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heder__top_right{
+  display: flex;
+  align-items: start;
+}
+
+.heder__top_right{
+  display: flex;
+  align-items: center;
+
+}
+
+.heder__top_right_nav{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  column-gap: 23px;
+  border-right: 2px solid #fff;
+  padding-right: 31px;
+  /*padding-left: 21px;*/
+  height: 52px;
+
+}
+
+.nav__menu a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #fff;
+}
+
+.nav__menu img{
+  width: 20px;
+}
+
+.heder__top_right_contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.heder__phone{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.heder__phone p{
+  width: 155px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.header__button{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background: #FF7400;
+  padding: 14px 18px;
+  margin-left: 45px;
+  border: none;
+  cursor: pointer;
+}
+
+.header__main{
+
+
+}
+
+.header__title{
+  margin-top: 203px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.header__title h2{
+  margin-left: 24px;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 57px;
+  color: #D67E35;
+}
+
+.header__title h1{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 92px;
+  color: #D67E35;
+}
+
+.header__title p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.header__title p::before,
+.header__title p::after{
+  content: "";
+  display: block;
+  width: 61px;
+  height: 2px;
+  background: #c4c4c4;
+}
+
+.header__title p::before{
+  margin-right: 10px;
+}
+
+.header__title p::after{
+  margin-left: 10px;
+}
+
+.header__main_btn{
+  display: flex;
+  justify-content: center;
+}
+.header__main .header__button{
+
+  margin: 30px auto;
+}
+
+.header{
+
+}
+
+.header__casper{
+  position: relative;
+  margin-top: -100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_casper_contant{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  height: 330px;
+  background: #FFFFFF;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.header_casper_contant_img{
+  margin-top: 35px;
+}
+
+.header_casper_contant_h2{
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #2C2C2C;
+}
+.header_casper_contant_h2 span{
+  color: #FF7400;
+}
+
+.header_casper_contant_p {
+  padding: 20px 15px;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  color: #656363;
+}
+
+.btn__nav{
+  display: none;
+  width: 30px;
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.btn__nav div{
+  height: 3px;
+  background: #FF7400;
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
