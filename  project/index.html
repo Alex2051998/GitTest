@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
     <title>project</title>
 </head>
 <body>
@@ -17,7 +18,7 @@
             <div class="contant d-flex ">
                 <div class="header__left">
                     <img src="img/location.png" alt="location">Ваш город: <span class="underline">Москва</span>
-                    <li class="nav-item dropdown none">
+                    <li class="nav-item dropdown none display_none"">
                         <a class="nav-link dropdown-toggle header__left_pading" href="#" id="navbarDropdownMenuLink"
                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Информация
@@ -28,7 +29,7 @@
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown none">
+                    <li class="nav-item dropdown none display_none">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button"
                            data-bs-toggle="dropdown" aria-expanded="false">
                             Сотрудничество
@@ -37,6 +38,21 @@
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown none display_block">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            Еще
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Доставка</a></li>
+                            <li><a class="dropdown-item" href="#">Оплата</a></li>
+                            <li><a class="dropdown-item" href="#">Гарантия</a></li>
+                            <li><a class="dropdown-item" href="#">Новости</a></li>
+                            <li><a class="dropdown-item" href="#">Журнал</a></li>
+                            <li><a class="dropdown-item" href="#">О магазине</a></li>
+                            <li><a class="dropdown-item" href="#">Контакты</a></li>
                         </ul>
                     </li>
                 </div>
@@ -73,33 +89,41 @@
     <div class="container">
         <div class="header__contant_top">
             <div class="header__contant_top_block1">
-                <img src="img/avt-zap.png" alt="avt-zap">
+                <img src="img/avt-zap.png" alt="avt-zap" class="logoimg">
                 <div class="block__title">
                     <h2>AVT-ZAP</h2>
                     <p>Интернет-магазин запчастей
                         для АКПП</p>
                 </div>
             </div>
-            <div class="header__contant_top_block1">
+            <div class="header__contant_top_block1 block1_time">
                 <img src="img/time.png" alt="avt-zap">
                 <div class="block__title time">
                     <p>Мы работаем: будни - 9:00-21:00
                         сб. - 10:00-15:00</p>
                 </div>
             </div>
-            <div class="header__contant_top_block1">
+            <div class="header__contant_top_block1 block1_location">
                 <img src="img/location1.png" alt="location">
                 <div class="block__title location">
                     <p>Невский пр-т, д. 45</p>
                 </div>
             </div>
             <div class="header__contant_top_block1">
-                <div class="header__contant_top_block2">
-                    <img src="img/whatsapp.png" alt="whatsapp">
-                    <div class="block__title whatsapp">
-                        <p>Напишите нам в WhatsApp</p>
+                <div class="header__contant_top_block">
+                    <div class="header__contant_top_block2">
+                        <img src="img/whatsapp.png" alt="whatsapp">
+                        <div class="block__title whatsapp">
+                            <p>Напишите нам в WhatsApp</p>
+                        </div>
+
+                    </div>
+                    <div class="block__title contact1 display_none_desctop">
+                        <h2>+7 383 291 92 86</h2>
+                        <p>форма обратной связи</p>
                     </div>
                 </div>
+
 
             </div>
             <div class="header__contant_top_block1">
@@ -113,7 +137,9 @@
 
         <div class="header__contant_doun">
             <div class="header__contant_doun_block">
-                <button type="button" class="btn btn-primary"><img src="img/line.png" alt="line" class="pading">Каталог
+                <button type="button" class="btn btn-primary display_none"><img src="img/line.png" alt="line" class="pading">Каталог
+                </button>
+                <button type="button" class="btn btn-primary display_none_desctop"><img src="img/line.png" alt="line" class="pading">
                 </button>
             </div>
             <div class="header__contant_doun_block">
@@ -121,7 +147,7 @@
                     <input type="text" class="form-control" placeholder="Поиск по наименованию или артикулу"
                            aria-label="Username"
                            aria-describedby="input-group-button-right">
-                    <button type="button" class="btn btn-primary" id="input-group-button-right">Найти
+                    <button type="button" class="btn btn-primary  min__button" id="input-group-button-right">Найти
                     </button>
                 </div>
             </div>

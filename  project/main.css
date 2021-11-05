@@ -75,6 +75,10 @@ table {
     margin-left: 50px;
 }
 
+.display_block{
+    display: none;
+}
+
 .underline {
     text-decoration: underline;
 }
@@ -167,6 +171,10 @@ table {
     width: 165px;
     margin-right: 30px;
     height: 55px;
+}
+
+.display_none_desctop{
+    display: none;
 }
 
 .pading {
