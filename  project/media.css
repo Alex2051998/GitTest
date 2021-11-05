@@ -120,7 +120,7 @@
     }
     .first-display_contant_midl_button{
         display: flex;
-        width: 500px;
+        width: 340px;
     }
 
     .footer{
@@ -148,5 +148,12 @@
     }
     .footer__right_doun span {
        display: none;
+    }
+    .btn_bacgraund{
+        background: #0021f5;
+    }
+    .footer__right_doun {
+        margin-left: -30px;
+        margin-right: 30px;
     }
 }
