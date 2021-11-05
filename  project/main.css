@@ -50,6 +50,10 @@ table {
     border-spacing: 0;
 }
 
+.row{
+    margin: 0;
+}
+
 .header {
     background: #0F2438;
     font-weight: 500;
@@ -102,6 +106,7 @@ table {
     display: flex;
     align-items: center;
 }
+
 
 .block__title h2 {
     font-style: normal;

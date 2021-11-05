@@ -131,6 +131,22 @@
         margin: 20px 15px;
     }
 
+    .crd_top {
+        width: 300px;
+    }
+
+    .right_card{
+        padding-top: 0;
+    }
+
+    .right_card h2{
+        font-size: 14px;
+    }
+
+    .right_card button{
+        margin-right: 10px;
+    }
+
     .second-section__contant{
         display: block;
     }
